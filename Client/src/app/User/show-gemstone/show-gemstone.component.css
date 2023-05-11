@@ -1,0 +1,39 @@
+.product__detail {
+    margin-top: 96px;
+    margin-bottom: 40px;
+}
+
+
+.grid__column-6-img {
+    width: 100%;
+}
+
+.product__detail-wrap {
+    display: flex;
+}
+
+.aboutUs-content_title {
+    padding-top: calc(100%/50);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.aboutUs-content_child {
+    line-height: 2.2rem;
+    padding-top: 19px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.aboutUs-content-wrap_img {
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.aboutUs-content-wrap_child {
+    padding-left: 34px;
+}
+
+.aboutUs-content-wrap_child .aboutUs-content_title {
+    padding-top: calc(100%/2 - 153px);
+}
