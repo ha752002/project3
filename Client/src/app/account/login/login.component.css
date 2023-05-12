@@ -43,7 +43,7 @@
 .auth-form__title p {
     font-size: 26px;
     line-height: 28px;
-    color: #e14b33;
+    color: var(--black-color);
     margin: 0;
     text-align: center;
     font-weight: 600;
@@ -54,7 +54,7 @@
    
 } */
 .btn--with-icon {
-    color: var(--white-color)
+    color: var(--black-color)
 }
 
 .auth-form__input {
@@ -111,8 +111,22 @@
     margin-right: 8px;
 }
 
+.auth-form__controls-back:hover {
+    color: red;
+}
+
+.auth-form__controls-login {
+    color: var(--white-color);
+    background-color: #ff9aa1 !important;
+}
+
+.auth-form__controls-login:hover {
+
+    background-color: #c1535a !important;
+}
+
 .auth-form__socials {
-    background-color: #f5f5f5;
+    background-color: #efeeee;
     padding: 16px 36px;
     display: flex;
     justify-content: space-between;
@@ -136,10 +150,11 @@
     margin: 0 36px;
 }
 
+/* 
 .auth-form__socials--google {
     background-color: #e14b33;
 
-}
+} */
 
 .auth-form__help {
     display: flex;
