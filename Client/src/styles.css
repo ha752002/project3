@@ -226,11 +226,11 @@ html {
 
 /* container product */
 .container-product-title {
-    border: 3px dotted var(--primary-color);
+    border: 3px dotted var(--text-color);
     font-size: 2.2rem;
     font-weight: bold;
     line-height: 42px;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .grid__column-3-img {
